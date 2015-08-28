@@ -1,0 +1,22 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    tools:context="cn.wangbaiyuan.byleavepaper.BYbrowserActivity" >
+
+    <TextView
+        android:id="@+id/top_relative"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/nwpu_c"
+        android:textSize="15dp" />
+
+    <WebView
+        android:id="@+id/webView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+       android:layout_below="@+id/top_relative" />
+
+</RelativeLayout><!-- From: file:/E:/myandroid/BYLeavePaper2/bYLeavePaper2/src/main/res/layout/activity_bybrowser.xml -->

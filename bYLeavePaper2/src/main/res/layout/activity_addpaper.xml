@@ -1,0 +1,181 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="cn.wangbaiyuan.byleavepaper.AddPaperActivity" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TableRow
+                    android:id="@+id/tableRow1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                        android:background="@drawable/more_itemtop_press"
+                     >
+
+                    <TextView
+                        android:id="@+id/times"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="课程ID" 
+                        
+                        />
+
+                    <EditText
+                        android:id="@+id/paper_courseid"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/qq_edit_login"
+                        android:ems="10"
+                        android:inputType="number" />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" 
+ android:layout_marginLeft="2.0dip"
+                        android:layout_marginRight="2.0dip"
+                        android:background="@drawable/more_itemmiddle_press">
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="教师ID" 
+                       />
+
+                    <EditText
+                        android:id="@+id/paper_teacherid"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/qq_edit_login"
+                        android:ems="10"
+                        android:inputType="number" />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+ android:layout_marginLeft="2.0dip"
+                        android:background="@drawable/more_itemmiddle_press"
+                        android:paddingBottom="16.0dip"
+                        android:paddingTop="16.0dip" >
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="开始时间" 
+                         />
+
+                    <TextView
+                        android:id="@+id/timeStart"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:text="&lt;-点击选取时间->"
+                        android:textSize="20sp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+         android:layout_marginLeft="2.0dip"
+                        android:layout_marginRight="2.0dip"
+                        android:background="@drawable/more_itembottom_press"
+                        android:paddingBottom="16.0dip"
+                        android:paddingTop="16.0dip" >
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="结束时间" 
+                         />
+
+                    <TextView
+                        android:id="@+id/timeEnd"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="&lt;-点击选取时间->"
+                        android:textSize="20sp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/TableRow5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+                </TableRow>
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/TextView01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="请假原因" 
+                    android:layout_marginTop="20dp"/>
+
+                <TableRow
+                    android:id="@+id/tableRow6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <EditText
+                        android:id="@+id/paper_editcontent"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.39"
+                        android:background="@drawable/qq_edit_login"
+                        android:ems="10"
+                        android:gravity="top"
+                        android:inputType="textMultiLine"
+                        android:minHeight="100dp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+                </TableRow>
+            </TableLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

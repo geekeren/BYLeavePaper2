@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/bYLeavePaper2/src/main/java/cn/wangbaiyuan/byleavepaper/Addpaper.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bYLeavePaper2/src/main/java/cn/wangbaiyuan/byleavepaper/BYLeavePaper.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bYLeavePaper2/src/main/java/cn/wangbaiyuan/byleavepaper/BYbrowserActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bYLeavePaper2/src/main/java/cn/wangbaiyuan/byleavepaper/ContactsFragment.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bYLeavePaper2/src/main/java/cn/wangbaiyuan/byleavepaper/LeavePaperFragment.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bYLeavePaper2/src/main/java/cn/wangbaiyuan/byleavepaper/LoginActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bYLeavePaper2/src/main/java/cn/wangbaiyuan/byleavepaper/Page_about.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bYLeavePaper2/src/main/java/cn/wangbaiyuan/tools/BYHttpGet.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bYLeavePaper2/src/main/java/cn/wangbaiyuan/tools/BYLPtools.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bYLeavePaper2/src/main/java/cn/wangbaiyuan/tools/BYhttpPost.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bYLeavePaper2/src/main/java/cn/wangbaiyuan/tools/BYupdate.java" charset="GBK" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

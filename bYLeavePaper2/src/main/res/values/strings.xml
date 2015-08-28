@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BY请假条</string>
+    <string name="strInputAccHint">输入帐号</string>
+    <string name="strAccInputLabel">帐号</string>
+    <string name="strPswInputLabel">密码</string>
+    <string name="opt_remember">记住密码</string>
+    <string name="login">登 录</string>
+    <string name="register">注册</string>
+    <string name="action_exit">退出</string>
+    <string name="action_about">关于</string>
+    <string name="action_checkupdate">检测更新</string>
+    <string name="title_activity_main">BY请假条</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">设置</string>
+    <string name="title_activity_tab_leavepaper">请假</string>
+    <string name="title_activity_tab_me">个人</string>
+    <string name="title_activity_tab_message">消息</string>
+    <string name="TabMessage">消息</string>
+    <string name="TabMe">个人</string>
+    <string name="TabLeavepaper">请假</string>
+    <string name="title_activity_page_about">关于</string>
+    <string name="title_activity_register">注册</string>
+    <string name="ActivityMainTitle">请假条</string>
+    <string name="main_navigation_leavepaper">请假条</string>
+    <string name="main_navigation_contacts">师生</string>
+    <string name="main_navigation_message">消息</string>
+    <string name="main_navigation_me">我</string>
+    <string name="app_close">关闭应用程序</string>
+    <string name="btn_cancel">取 消</string>
+    <string name="btn_ok">确 定</string>
+    <string name="cart_item_hint">请假条还是空的~ !</string>
+    <string name="title_activity_add_paper">AddPaperActivity</string>
+    <string name="introUrl">
+        http://wangbaiyuan.cn/by-leave-of-software-instructions-and-feedback-page.html
+        </string>
+    <string name="suggestionUrl">
+       http://wangbaiyuan.cn/by-leave-of-software-instructions-and-feedback-page.html#title-3
+        </string>
+    <string name="title_activity_addpaper">我要请假</string>
+    <string name="introduce">BY请假条意为学生提供请假申请、辅导员批假、老师确认、通知推送、邮件发送提醒和密码重置等基础功能.，同时实现师生之间留言、即时聊天等互动功能</string>
+    <string name="title_activity_bybrowser">BYbrowserActivity</string>
+
+</resources>

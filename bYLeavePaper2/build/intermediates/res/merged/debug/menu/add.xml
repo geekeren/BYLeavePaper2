@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.lianxiren.MainActivity" >
+    <item
+        android:id="@+id/action_add"
+        android:showAsAction="withText|ifRoom"
+        android:title="添加"/>
+</menu>
+<!-- From: file:/E:/myandroid/BYLeavePaper2/bYLeavePaper2/src/main/res/menu/add.xml -->

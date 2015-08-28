@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:layout_margin="20dip">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/paper_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10.0dip"
+            android:gravity="center_vertical"
+            android:paddingLeft="4.0dip"
+            android:text="请假标题"
+            android:textColor="#47B9D8"
+            android:textSize="16.0sp" />
+
+        <TextView
+            android:id="@+id/creatTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+               android:layout_marginTop="10.0dip"
+            android:gravity="right"
+            android:paddingRight="6dp"
+            android:text="请假时间"
+             android:textSize="16.0sp"
+            android:textColor="#47B9D8" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16.0dip"
+            android:paddingLeft="1.0dip"
+           
+            
+            android:layout_margin="10.0dip"
+            android:shrinkColumns="0"
+            android:stretchColumns="0" >
+
+            <TableRow
+                android:id="@+id/more_page_row4"
+                android:layout_width="fill_parent"
+                android:layout_marginLeft="2.0dip"
+                android:layout_marginRight="2.0dip"
+                android:background="@drawable/more_itemtop_press" >
+
+                <TextView
+                    android:id="@+id/paper_teacher"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:drawableLeft="@android:drawable/ic_lock_lock"
+                    android:gravity="center_vertical"
+                    android:includeFontPadding="false"
+                    android:paddingLeft="17.0dip"
+                    android:text="老师"
+                    android:textColor="#ff333333"
+                    android:textSize="14sp" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/more_homepage"
+                android:layout_width="fill_parent"
+                android:layout_marginLeft="2.0dip"
+                android:layout_marginRight="2.0dip"
+                android:background="@drawable/more_itemmiddle_press" >
+
+                <TextView
+                    android:id="@+id/paper_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                     android:drawableLeft="@android:drawable/ic_menu_today"
+                    android:gravity="center_vertical"
+                    android:includeFontPadding="false"
+                    android:paddingLeft="17.0dip"
+                    android:text="时间"
+                    android:textColor="#ff333333"
+                    android:textSize="14.0sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_marginLeft="2.0dip"
+                android:layout_marginRight="2.0dip"
+                android:background="@drawable/more_itemmiddle_press" >
+
+                <TextView
+                    android:id="@+id/paper_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:drawableLeft="@android:drawable/ic_menu_help"
+                    android:gravity="center_vertical"
+                    android:includeFontPadding="false"
+                    android:paddingLeft="17.0dip"
+                    android:text="原因"
+                    android:textColor="#ff333333"
+                    android:textSize="14sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_marginLeft="2.0dip"
+                android:layout_marginRight="2.0dip"
+                android:background="@drawable/more_itembottom_press"
+                android:paddingBottom="6.0dip"
+                android:paddingTop="6.0dip" >
+
+                <TextView
+                    android:id="@+id/paper_status"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:drawableLeft="@android:drawable/ic_dialog_info"
+                    android:gravity="center_vertical"
+                    android:includeFontPadding="false"
+                    android:paddingLeft="17.0dip"
+                    android:text="状态"
+                    android:textColor="#ff333333"
+                    android:textSize="14sp" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/E:/myandroid/BYLeavePaper2/bYLeavePaper2/src/main/res/layout/paper_item.xml -->

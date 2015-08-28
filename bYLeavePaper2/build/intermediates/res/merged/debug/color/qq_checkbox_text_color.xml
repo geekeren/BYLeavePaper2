@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="true" android:color="#ffffffff" />
+    <item android:state_checked="false" android:color="#7fffffff" />
+</selector><!-- From: file:/E:/myandroid/BYLeavePaper2/bYLeavePaper2/src/main/res/color/qq_checkbox_text_color.xml -->
