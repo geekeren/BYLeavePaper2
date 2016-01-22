@@ -2,25 +2,11 @@
 <items version="2" >
 
     <item
-        jar="E:\myandroid\BYLeavePaper2\bYLeavePaper2\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\classes.jar"
+        jar="E:\myandroid\BYLeavePaper2\bYLeavePaper2\libs\pushservice-4.5.1.8.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="f8efd0096475e0daf054267b61544e10dc776503">
-        <dex dex="E:\myandroid\BYLeavePaper2\bYLeavePaper2\build\intermediates\pre-dexed\debug\classes-d9ddf317e52bb79f247bb40e642a45c3ab3c1b80.jar" />
-    </item>
-    <item
-        jar="D:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.1\support-annotations-22.2.1.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
-        <dex dex="E:\myandroid\BYLeavePaper2\bYLeavePaper2\build\intermediates\pre-dexed\debug\support-annotations-22.2.1-db1bb2a3f1608a31c38a2d1f5698fe71cc45038a.jar" />
-    </item>
-    <item
-        jar="E:\myandroid\BYLeavePaper2\bYLeavePaper2\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\libs\internal_impl-22.2.1.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
-        <dex dex="E:\myandroid\BYLeavePaper2\bYLeavePaper2\build\intermediates\pre-dexed\debug\internal_impl-22.2.1-8b0a4ce82c1b630d761625c01fdfbad5ea1b2bb7.jar" />
+        sha1="12e032c029dcede1ee7166e22eb9c458cfc5e545">
+        <dex dex="E:\myandroid\BYLeavePaper2\bYLeavePaper2\build\intermediates\pre-dexed\debug\pushservice-4.5.1.8-6f8c357488e3eaa34c50099c6a11523747071183.jar" />
     </item>
     <item
         jar="E:\myandroid\BYLeavePaper2\bYLeavePaper2\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\jars\classes.jar"
@@ -30,11 +16,25 @@
         <dex dex="E:\myandroid\BYLeavePaper2\bYLeavePaper2\build\intermediates\pre-dexed\debug\classes-172f48df1c07620d6d99bdcc23d7e0c1f315c931.jar" />
     </item>
     <item
-        jar="E:\myandroid\BYLeavePaper2\bYLeavePaper2\libs\pushservice-4.5.1.8.jar"
+        jar="C:\Software\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.1\support-annotations-22.2.1.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="12e032c029dcede1ee7166e22eb9c458cfc5e545">
-        <dex dex="E:\myandroid\BYLeavePaper2\bYLeavePaper2\build\intermediates\pre-dexed\debug\pushservice-4.5.1.8-6f8c357488e3eaa34c50099c6a11523747071183.jar" />
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="E:\myandroid\BYLeavePaper2\bYLeavePaper2\build\intermediates\pre-dexed\debug\support-annotations-22.2.1-244d5bcf7a407400accc7fa5bedbc5550a9e3723.jar" />
+    </item>
+    <item
+        jar="E:\myandroid\BYLeavePaper2\bYLeavePaper2\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="E:\myandroid\BYLeavePaper2\bYLeavePaper2\build\intermediates\pre-dexed\debug\classes-d9ddf317e52bb79f247bb40e642a45c3ab3c1b80.jar" />
+    </item>
+    <item
+        jar="E:\myandroid\BYLeavePaper2\bYLeavePaper2\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\libs\internal_impl-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="E:\myandroid\BYLeavePaper2\bYLeavePaper2\build\intermediates\pre-dexed\debug\internal_impl-22.2.1-8b0a4ce82c1b630d761625c01fdfbad5ea1b2bb7.jar" />
     </item>
 
 </items>
